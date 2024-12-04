@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReficulLive</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-image: url(Pozadi.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #7b6b6b;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #636060;
+        }
+
+        a:hover {
+            color: #575555;
+        }
+
+        section {
+            animation: fade-in 2s;
+        }
+
+        @keyframes fade-in {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        video {
+            width: 100%;
+            height: 400px;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #ffffffb3;
+            padding: 20px;
+            text-align: center;
+            clear: both;
+        }
+
+        @media (max-width: 800px) {
+            video {
+                height: 300px;
+            }
+        }
+
+        /* Nový styl pro zarovnání nadpisů na střed */
+        .centered-title {
+            text-align: center;
+            margin: 20px 0; /* Přidání okrajů pro lepší vzhled */
+        }
+
+        /* Vylepšená animace pro nadpis "The Walking Dead" */
+        .animated-title {
+            text-align: center;
+            animation: pulse 2.5s infinite, glow 2.5s infinite alternate;
+            font-size: 2em; /* Velikost písma */
+            color: #ff0000; /* Barva textu */
+            text-shadow: 0 0 10px rgba(255, 0, 0, 0.8), 0 0 20px rgba(255, 0, 0, 0.6); /* Stín textu */
+            padding: 10px; /* Okraje kolem textu */
+            border-radius: 10px; /* Zaoblení rohů */
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(0.5);
+                opacity: 1;
+            }
+            50% {
+                transform: scale(0.75); /* Zmenšeno z 1.1 na 1.05 */
+                opacity: 0.5;
+            }
+            100% {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+
+        @keyframes glow {
+            0% {
+                text-shadow: 0 0 10px rgba(255, 0, 0, 0.8), 0 0 20px rgba(255, 0, 0, 0.6);
+            }
+            100% {
+                text-shadow: 0 0 20px rgba(255, 0, 0, 1), 0 0 30px rgba(255, 0, 0, 0.8);
+            }
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px;
+        }
+
+        .button {
+            background-color: #ff0000; /* Barva pozadí tlačítka */
+            color: white; /* Barva textu */
+            padding: 10px 20px; /* Vnitřní okraje */
+            text-align: center; /* Zarovnání textu */
+            text-decoration: none; /* Bez podtržení */
+            border-radius: 5px; /* Zaoblení rohů */
+            transition: background-color 0.3s; /* Přechod pro efekt */
+        }
+
+        .button:hover {
+            background-color: #010101; /* Barva poz adí při najetí myší */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <u><h3>ReficulLive</h3></u>
+            <center>
+                <h1 class="animated-title"><mark><em><b><i>The Walking Dead</i></b></em></mark></h1>
+            </center>
+            <div class="button-container">
+                <a href="https://reficullive.github.io/Sezona-4/Sezona 4.html" class="button">Předchozí sezona</a>
+                <a href="https://reficullive.github.io/Sezona-6/Sezona 6.html" class="button">Další sezona</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <footer><header>Sezona 5</header></footer>
+
+       
+        <div class="centered-title"><u><h2>Porážka</h2></u></div>
+        <video controls fastload muted loop>
+            <source src="https://online1.sktorrent.eu/media/videos//h264/6681_480p.mp4">
+        </video>
+        <p>Rick, Daryl, Glenn a Bob jsou odvedeni, aby byli zabiti a rozporcováni na jídlo.
+             Když už je Glenn málem zabit, zaútočí na Terminus Carol a stádo mrtváků. Rickovi se podaří
+              osvobodit sebe i ostatní. Carol se dostala do Terminusu s mrtváky a nyní hledá Ricka a ostatní.
+               Terminus je plný mrtváků, ale zdejší se brání. Rick zabíjí každého, koho potká, je mu jedno, zda 
+               je to někdo živý nebo mrtvý. Rick se nakonec dostane až k vagonu, kde je zbytek skupiny. Než Rick
+                dorazil, zeptala se Sasha Eugena na ten zázračný lék proti mrtvákům. Eugene chce všechny mrtvé na
+                 planetě zabít virem, který půjde jen po nich. Všichni ve vagonu se připravovali na boj, takže je
+                  pak překvapilo, když dveře otevřel Rick. Všem se podařilo utéct. V lese se skupina setkala s Carol.
+                   Carol z Terminusu donesla pár věcí, které patřily jejím přátelům. Carol pak všechny odvedla za Tyreesem.
+                    Ten čekal s Judith v jedné chatce. Spolu s nimi tam byl svázaný i muž, který patřil ke skupině Terminus.
+                     Muž neustále mluvil o tom, že Tyreese i Judith zemřou, protože je Tyreese klaďas. Jednou se muži dokonce
+                      podařilo vstát a vyhrožovat Tyreesovi smrtí Judith. Tyreese musel z chatky ven, kde byli mrtváci. Tyreese
+                       ale přemohl mrtváky i muže a nakonec vše dobře dopadlo. Všichni jsou šťastní, že se konečně našli. Nyní
+                        chtějí odejít daleko a začít znovu.
+        </p>
+
+        <div class="centered-title"><u><h2>Cizáci</h2></u></div>
+        <video controls fastload muted loop>
+            <source src="https://online3.sktorrent.eu/media/videos//h264/6682_480p.mp4">
+        </video>
+        <p>Rickova skupina narazila při hledání přístřeší a jídla na kněze Gabriela, který dovedl skupinu 
+            ke svému kostelu, kde žije sám. A protože měl dost zásob, dlouho z něj nevyšel. Zásoby však došly, 
+            a tak Gabriel vybral všechny objekty ve městě. Vynechal jen potravinovou banku; tam je totiž moc
+             mrtváků. Rick nevěří Gabrielovi ani slovo, ale do banky se rozhodne vydat. Rickovi a Darylovi také
+              vrtá hlavou to, že je možná někdo sleduje, alespoň Daryl má ten dojem. Skupinka s Rickem a Gabrielem 
+              vyrazila do potravinové banky, kde jídlo skutečně našli, ale boj o něj byl krutější, než si mysleli.
+               Boba stáhl jeden z mrtváků pod hladinu, ale Bob tvrdí, že se mu nic nestalo. Skupina získala opravdu 
+               hodně jídla. Další skupina našla nějaké tlumiče na zbraně. Daryl a Carol strávili hodně času spolu a
+                shodli se na novém začátku, až to vypadá, že by rádi začali jen ve dvou. Dvojice dokonce narazila na
+                 vůz, který si nechali v záloze, kdyby se v kostele něco zvrtlo. Když se Rickova skupina vrátila, 
+                 ukázal Carl svému otci škrábance na zdech kostela a také nápis „ZA TOHLE SE UŠKVAŘÍŠ". Nápis napověděl
+                  Rickovi, že Gabriel skutečně něco skrývá. Ten večer si parta udělala velkou hostinu, každý 
+                  se dobře bavil, a dokonce se shodli na tom, že pojedou s Eugenem do Washingtonu. Za kostelem 
+                  je minibus, který mohou použít. Během večera se ale z kostela vypařili Bob a Carol. Carol 
+                  se chystala odjet, ale Daryl ji našel včas. Už se chtěli vrátit, ale v tu chvíli kolem nich 
+                  projelo auto, které uneslo Beth. Dvojice auto pronásleduje. Z kostela zmizel i Bob, který
+                   pozoroval vše zvenčí a brečel, ale pak ho unesla skupina přeživších z Terminusu. Když se Bob
+                    probral z bezvědomí, chyběla mu noha, na které si pochutnával Gareth a jeho lidé.
+        </p>
+
+        <div class="centered-title"><u><h2>Čtyři stěny a střecha</h2></u></div>
+        <video controls fastload muted loop>
+            <source src="https://online4.sktorrent.eu/media/videos//h264/6683_480p.mp4">
+        </video>
+        <p>Bob oznámí svým únoscům, že jedí nakažené maso, protože ho v potravinové bance kousl mrtvák. 
+            Gareth tedy nechá Boba odnést ke kostelu... Sasha mezitím vyjede na Gabriela, protože ho podezírá 
+            z podrazu. Gabriel se přizná k tomu, že když vypukla apokalypsa, odmítl do svého kostela pustit 
+            věřící, kteří proto škrábali na zdi kostela. Všichni nakonec jeho vinou zemřeli. Po Gabrielově
+             zpovědi je u kostela nalezen Bob. Když se Bob probere, přizná svojí skupině, že ho pokousal mrtvák.
+              Popíše také únos a viníky. Abraham chce okamžitě odjet, protože Eugene je v nebezpečí. To Rick odmítá,
+               jelikož Carol a Daryl jsou pryč a on očekává jejich brzký návrat. Abraham nakonec souhlasí s tím, že
+                odjedou až další den v poledne, ale musí s ním jet i Glenn, Maggie a Tara. To je přijatelné pro 
+                všechny. Rick pak přichází s rafinovaným plánem útoku na Garethovu skupinu, chce je vlákat do pasti...
+        </p>
+
+        <div class="centered-title"><u><h2>Bez práví a pořádek</h2></u></div>
+        <video controls fastload muted loop>
+            <source src="https://online5.sktorrent.eu/media/videos//h264/6684_480p.mp4">
+        </video>
+        <p>Beth se probere v nemocnici, kde ji ošetřil doktor Steven. Nemocnici velí Dawn, která velí i 
+            skupině policistů, kteří vše drží v chodu. Beth brzy dojde, že Dawn hodně dluží za záchranu života,
+             a Dawn si to hodlá vybrat prací. V nemocnici se neplýtvá zdroji a každý, kdo je zachráněn, je pak 
+             otrokem policistů. Situace zachází až tak daleko, že policisté v nemocnici znásilňují prakticky všechny
+             ženy, které nenosí policejní uniformu. Steven je slušný člověk, ale využívá toho, že je jediný lékař,
+              takže se k němu chovají velmi dobře. Beth se v nemocnici seznámí i s Noahem, který slouží především Dawn. 
+              Noah jí řekne, že svůj dluh nikdo nikdy nesplatí, takže není možnost, že by někoho nechali z nemocnice odejít.
+               Beth je z poměrů v nemocnici v šoku a Dawn ji navíc několikrát uhodí... Do nemocnice dovezou muže, který vypadl
+                z okna. Dawn by na něj normálně zdroji neplýtvala, ale muž je lékař a Dawn se chce zbavit Stevena, takže po 
+                něm chce, aby ho zachránil. Steven ale dá Beth příkaz, aby pacientovi podala špatné léky, a muž zemře. Vinu 
+                na sebe vezme Noah. Beth se rozhodne s Noahem utéct...
+        </p>
+
+        <div class="centered-title"><u><h2>Svépomoc</h2></u></div>
+        <video controls fastload muted loop>
+            <source src="https://online2.sktorrent.eu/media/videos//h264/6685_480p.mp4">
+        </video>
+        <p>Abrahamova skupina je na cestě do Washingtonu, ale brzy po odjezdu mají nehodu s autobusem. 
+            Všichni přežili, ale musí pokračovat pěšky. Skupina narazila na městečko a v něm našli knihkupectví,
+             které je ve velmi dobrém stavu. Skupina se v obchodě utábořila. Všichni chtěli zůstat minimálně ještě 
+             jeden den, ale Abraham se nechce zdržovat. Abraham vymyslel, že dál budou cestovat hasičským vozem, ale
+              zprovoznit ho stojí hodně času a navíc skupinu přepadnou mrtváci. Auto sice funguje, ale na cestě se
+               opět rozbije. Abraham chce opět pokračovat pěšky, ale v cestě jim stojí tisíce mrtváků. Abraham chce
+                stádem projet, ale zbytek ne. Abraham si tedy bere Eugena, ale toho brání Glenn. Nakonec dojde ke rvačce,
+                 kterou ukončí až přiznání Eugena, že celou dobu lhal. Eugene prý žádný vědec není, jen chtěl ochranu
+                  a dostat se do Washingtonu. Eugene si myslí, že tam je největší šance na přežití. Abraham zmlátil Eugena
+                   do bezvědomí a pak se nervově zhroutil. Po celou dobu sledujeme příběh Abrahama, než potkal Eugena. 
+                   Abraham měl ženu a dvě děti, ale kvůli jejich bezpečnosti zabíjel lidi holýma rukama. Rodina se ho začala
+                    bát, takže jednoho dne žena vzala děti a utekla i s nimi. Abraham je našel mrtvé, dostali je mrtváci.
+                     Abrahama před sebevraždou zachránil právě Eugene, který mu řekl, že má důležitý úkol. Abraham tedy Eugenovi
+                      pomáhal.
+        </p>
+
+        <div class="centered-title"><u><h2>Sžířaná</h2></u></div>
+        <video controls fastload muted loop>
+            <source src="https://online1.sktorrent.eu/media/videos//h264/6686_480p.mp4">
+        </video>
+        <p>Carol a Daryl pronásledují auto, které uneslo Beth, když byla po útěku z věznice s Darylem.
+             Sledování končí v Atlantě, kde jim dojde benzin. Carol ví o azylovém domě pro matky poblíž místa, 
+             kde zůstali trčet, takže tam přečkají noc. Ráno vyrazí do centra, aby se dostali do některého z mrakodrapů, 
+             z něhož by získali lepší výhled. Cestou je ale přepadne mladík, který je okrade o všechny zbraně.
+              Ani to však dvojici nezastaví... Z mrakodrapu Daryl zahlédne dodávku, která má na oknech stejné kříže
+               jako auto, které předchozí den sledovali. Dodávka je původně sanitka jedné z nemocnic, což je navede 
+               na stopu. Bohužel musejí i s dodávkou sjet z mostu, když je obklíčí horda mrtváků, a Carol si při pádu
+                ošklivě poraní rameno. Daryl s Carol si prohlížejí nemocnici z vedlejšího domu, kde opět narazí na 
+                mladíka, který je okradl. Tentokrát si vezmou své zbraně zpět. Daryl chce nejprve nechat mrtváka, aby
+                 mladíka zabil, ale pak mu pomůže. Z hocha nakonec vyleze, že zná Beth a že mu pomohla utéct z nemocnice,
+                  kde je oba drželi...
+        </p>
+
+        <div class="centered-title"><u><h2>Kříže</h2></u></div>
+        <video controls fastload muted loop>
+            <source src="https://online3.sktorrent.eu/media/videos//h264/6687_480p.mp4">
+        </video>
+        <p>Rick a pár dalších mužů vyrazili do Atlanty, aby zachránili Beth a Carol. Rick plánuje vraždění,
+             ale Tyreese a Daryl ho přemluví ke klidné výměně zajatců. Rickově skupině se skutečně podaří vylákat
+              dva policisty a poté je i zajmout. Chvíli se o záchranu policistů pokouší jejich kolega, ale i ten je 
+              zajat. Plán zní tedy tak, že Rick vymění Carol a Beth za unesené policisty. Sasha do nemocnice nejede,
+               má na starost hlídaní seržanta Lamsona, ale ten na ni ušije boudu a omráčí ji. Lamson utekl, ale zatím
+                nevíme, co chystá. Beth mezitím v nemocnici bojuje o záchranu života Carol. Policisté navrhli odpojit
+                Carol od přístrojů, ale Beth protestovala. Dawn se musela postavit na stranu policistů, takže nechala 
+                Carol odpojit. Dawn ale dala Beth klíče od skříně s léky a Beth tak může Carol pomoct. Doktor Edwards 
+                Beth varoval, že to Dawn neudělala jen tak, ale Beth neváhá a bere ze skříně léky, které jí doktor pro 
+                Carol doporučil. V Abrahamově skupině panuje menší chaos, Eugene je stále v bezvědomí a zbytku dochází 
+                voda. Abraham je navíc duchem nepřítomen. V jednu chvíli byl Abraham při smyslech, ale to vypadal, že zabije 
+                Rositu, uklidnila ho až nabitá zbraň Maggie. Maggie zůstala s Abrahamem a Eugenem, zbytek vyrazil 
+                pro vodu. Glennovi a dalším se podařilo najít vodu a chytit i nějaké ryby. Vypadá to, že se situace 
+                zlepší. Na konci dílu se probral i Eugene a Abraham začal komunikovat. V kostele zůstali jen Carl, Michonne, 
+                Judith a Gabriel. Gabriel stále nesouhlasí s tím, jak se chovají ostatní, a proto se rozhodne utéct. Gabriel 
+                si vytvořil v podlaze díru, kterou utekl. Ostatní nevědí, že je pryč.
+        </p>
+
+        <div class="centered-title"><u><h2>Coda</h2></u></div>
+        <video controls fastload muted loop>
+            <source src="https://online4.sktorrent.eu/media/videos//h264/6688_480p.mp4">
+        </video>
+        <p>Gabriel uteče z kostela a dostane se až ke škole, kde najde Bobovu opečenou nohu. Gabriela to vyděsí,
+             takže se chce vrátit zpět do kostela, ale v patách má mnoho mrtváků. Michonne a Carl musejí násilně
+              otevřít zabarikádované dveře kostela, ale spolu s Gabrielem se tam dostane i spousta mrtváků. Trojice
+               z kostela uteče a mrtváky v něm zavře, ale ne na dlouho. Když už se mrtváci skoro dostanou ven, přijede 
+               Abrahamova skupina a vchod zatarasí hasičským vozem. Všichni teď spolu míří do Atlanty, kde se zbytek
+                skupiny chystá zachránit Beth a Carol... Zajatý Lamson uteče Sashe, a když se nezastaví ani před Rickovým 
+                autem, ten ho srazí. Lamson umírá, ale dva zbylí policisté Rickovi slíbí, že budou Dawn tvrdit, že Lamsona 
+                zabili mrtváci. Rick tedy pokračuje v plánu na výměnu zajatců. Všichni se přesunoou k nemocnici a Rick si 
+                o samotě počká na další dva policisty, kterým vysvětlí situaci a sdělí jim požadavky...
+        </p>
+
+        <div class="centered-title"><u><h2>Vzpomínky</h2></u></div>
+        <video controls fastload muted loop>
+            <source src="https://online5.sktorrent.eu/media/videos//h264/6689_480p.mp4">
+        </video>
+        <p>Smrt Beth všechny zdrtila, ale novou energii do žil jim vlije cesta k Noahovi domů. Skupina 
+            se vydá na cestu, protože Beth si přála Noaha domů doprovodit. Pokud by dům ještě stál, mohl by
+             být novým útočištěm pro všechny. Skupina se rozdělí do několika vozů. Rick, Tyreese, Glenn, Michonne 
+             a Noah vyrazí do osady. Bohužel hned první pohled jim stačí k tomu, aby zjistili, že osada padla. Noah
+              i tak vleze dovnitř a všichni ostatní s ním. Pohled na zničené domy a mrtvoly všude kolem srazí Noaha
+               na kolena. Rick, Glenn a Michonne vyrážejí na rychlý průzkum, aby posbírali věci, které by se jim mohly 
+               hodit. Tyreese zůstane u zoufalého Noaha. Snaží se ho uklidnit, ale vše dopadne tak, že se Noah rozeběhne 
+               domů, kde najde mrtvou matku. Tyreese prochází dům a nachází jednoho z Noahových bratrů, který je také mrtvý.
+                Druhý bratr Tyreese kousne. Noah běží pro pomoc za ostatními... Trojice, která je na průzkumu, je
+                 psychicky na dně. Všichni doufali v nový domov a už jsou unavení z kočování. Michonne se snaží vymyslet,
+                  jak osadu opevnit, aby tam mohli zůstat, ale v tu chvíli uslyší Noaha, jak křičí o pomoc. Noah je
+                   zachráněn a teď všichni míří za Tyreesem. Ten mezitím ztratil hodně krve...
+        </p>
+        
+        <div class="centered-title"><u><h2>Oni</h2></u></div>
+        <video controls fastload muted loop>
+            <source src="https://online2.sktorrent.eu/media/videos//h264/6690_480p.mp4">
+        </video>
+        <p>Skupina vyrazila do Washingtonu, ale brzy jim došla auta, jídlo i voda. Všichni tedy musí po 
+            svých, ale v horkých dnech jim neustále ubývá energie. Daryl se courá po lesích a hledá vodu,
+             ale to je jen záminka, aby nemusel být s ostatními. Maggie je plná smutku a nemá chuť do života. 
+             Sasha je naopak plná agresivity, které se chce zbavit, ale tím všechny ohrožuje. Skupinu pronásledují
+              mrtváci, ale nikdo nemá dost sil na to, aby se s nimi pral. Skupina tedy vymyslela plán, jak se 
+              mrtváků zbavit bez boje, ale Sashe ujely nervy a málem zranila Michonne i Abrahama, když se začala 
+              s mrtvákama prát. Sasha se musí uklidnit. Svoje démony má i Abraham, který popíjí alkohol, což ještě 
+              zhorší jeho dehydrataci. Skupina se konečně najedla až ve chvíli, kdy na ně zaútočili zdivočelí psi a
+               Sasha je zastřelila. Jediné, co nyní skupině chybí, je voda a přístřeší. Střechu nad hlavou našel
+                Daryl, když se toulal v lese. Stodola se hodila, protože začalo silně pršet a kousek od skupiny 
+                se začalo tvořit tornádo. Všichni si nabrali trochu vody a utekli se schovat. Večer si všichni povídali u
+                 ohně a Rick se snažil dodat všem optimismus, ale většině už chybí víra v lepší zítřky. Daryl se nakonec od 
+                 hloučku odloučil a šel se uklidnit ke dveřím, kde zjistil, že se na stodolu valí stádo mrtváků. Aby 
+                 skupina přežila, musí všichni spolupracovat a musí spolu udržet vrata zavřená. 
+                 Nakonec pomohla příroda, která na mrtváky shodila stromy. Noc tedy všichni přečkali 
+                 v pořádku. Dalšího dne byla Maggie optimističtější a promluvila si s Darylem. Maggie 
+                 vytáhla ven i Sashu a obě začaly mluvit o svých pocitech, obě si také poplakaly. Jejich 
+                 dojemnou chvíli vyrušil muž jménem Aaron, který je požádal, aby ho odvedly k Rickovi, prý má 
+                 pro ně dobrou zprávu. Nejspíš právě on nechal skupině na silnici několik lahví vody se vzkazem 
+                 „OD PŘÍTELE", ale nikdo se vody ani nedotkl, protože nevěděli, zda není voda otrávená.
+        </p>
+        
+        <div class="centered-title"><u><h2>Nedůvěřuj a prověřuj</h2></u></div>
+        <video controls fastload muted loop>
+            <source src="https://online3.sktorrent.eu/media/videos//h264/6692_480p.mp4">
+        </video>
+        <p>Maggie a Michonne přivedly do stodoly Aarona, který nabídl Rickově skupině místo 
+            v jejich komunitě, kde by měli být v bezpečí. Rick dal Aaronovi skoro okamžitě pěstí, a
+             až když byl Aaron svázaný, nechal ho Rick mluvit. Aaron tvrdí, že je venku jen jeden další
+              člověk, ale Rick mu nevěří. Michonne, Maggie, Glenn, Abraham a Rosita jdou obhlídnout auta, 
+              kterými prý Aaron a jeho parťák přijeli. Tato skupina zjistila, že Aaron mluví pravdu. Zbytek
+               lidí prohledal okolí a nikoho dalšího nenašli. V jednom z aut bylo jídlo, takže Rick přikazuje, 
+               aby se jeho lidé najedli a v noci vyrazí k Aaronově táboru. Aaron jim odmítá říct přesnou
+                polohu tábora, nováčky vždy odváží on. Rick je ale opatrnější, takže nechá řídit Glenna a pojedou 
+                jinou cestou, než jakou chtěl Aaron. Skupina vyráží v noci, ale moc se jim to nevyplatí. V prvním 
+                autě jedou Glenn, Rick, Michonne a Aaron. Michonne si všimla, že na Aaronových fotografiích nejsou 
+                lidé a přestala mu věřit, v tu chvíli auto nabouralo do velké skupiny mrtváků. Za první autem jel
+                 přívěs, ale ten se ztratil. V tu chvíli se na obloze objevila světlice a Aaron začal utíkat k ní. 
+                 Posádka prvního vozu se dostala mezi mrtváky, ale vzájemně si pomohli. Glenn osvobodil Aarona a 
+                 všichni pak utíkali za světlicí. Takhle se našla celá skupina a Aaron našel i svého přítele Erica,
+                  který hledá nové lidi s ním. Eric se dostal do úzkých, ale Rickovi lidé mu pomohli. Aaron a Eric 
+                  tvoří pár. Dalšího dne ráno všichni vyrazili k táboru, Eric jim řekl přesnou polohu. Už před branou
+                   je slyšet dětský smích, což je podle Michonne dobré znamení. Rick ale stále nikomu nevěří a kousek 
+                   od tábora si v harampádí ukryl zbraň. Vypadá to, že ani Carol moc nevěří nové komunitě.
+        </p>
+         
+        <div class="centered-title"><u><h2>Pamatuj</h2></u></div>
+        <video controls fastload muted loop>
+            <source src="https://online4.sktorrent.eu/media/videos//h264/6693_480p.mp4">
+        </video>
+        <p>Rickova skupina je přijata do Alexandrie, kde velí Deanna, bývalá kongresmanka. Deanna si rozhovory s
+             nově příchozími nahrává, ale věří jim. Rickova skupina musí odevzdat zbraně a dostane k dispozici několik 
+             domů. Rozhodnou se ale spát v jednom domě, aby nebyli rozděleni. Brzy Deanna všem oznámí, že dostanou přidělenou 
+             práci, v obci má práci každý. První den se všichni rozkoukávají, není to pro ně lehké. Carl je přímo v 
+             šok, že může hrát videohry. Rick také není ve své kůži a Daryl se dokonce odmítá osprchovat. Jako první 
+             dostane práci Carol, má vařit. Další, kdo dostane práci, jsou Glenn, Tara a Noah, kteří se mají zařadit
+              do týmu hledajícího zásoby. Ten nedávno přišel o lidi, zůstali jen Aiden a Nicholas. Oba jsou celkem 
+              troubové a s novu trojicí se neshodnou, což vyvrcholí rvačkou. Tu ukončí až Rick. Deanna vše viděla a 
+              je na svého syna Aidena naštvaná. Stojí na straně Rickových lidí, a proto je přede všemi uzná jako součást 
+              komunity...
+        </p>
+        
+        <div class="centered-title"><u><h2>Večírek</h2></u></div>
+        <video controls fastload muted loop>
+            <source src="https://online5.sktorrent.eu/media/videos//h264/6694_480p.mp4">
+        </video>
+        <p>Carol, Daryl a Rick jsou z nového domova nervózní a vadí jim, že u sebe nemohou mít zbraně.
+             Domluví se proto, že je ze zbrojnice ukradnou. Carol ze sebe dělá hloupou husu, takže ji nikdo z
+              ničeho nepodezírá. Po návratu ze schůzky se Rick sejde s Deannou a radí jí, jak zlepšit bezpečnost.
+               Sasha by se ráda ujala hlídek ve věži, o které se zatím skoro nikdo nestará. Deanna souhlasí, ale chce,
+                aby na oplátku přišla celá Rickova skupina na její večírek. Nakonec tam skutečně dorazí všichni
+                 kromě Daryla. Ten se totiž ten den sblíží s Aaronem, když se společně snaží chytit koně, kterého
+                 se Aaron a Eric pokoušeli chytit už měsíce. Koně však bohužel napadnou mrtváci. Po výletu Daryl
+                  přijde k Aaronovi a Ericovi povečeřet. Během jídla Aaron nabídne Darylovi, aby s ním hledal nové
+                   lidi do jejich komunity. Podle Aarona na to má nadání. Daryl souhlasí... Na večírku se i Rickova 
+                   skupina docela dobře baví. Jen Sasha má problém se začleněním. Nakonec jí ujedou nervy a začne
+                    tam křičet. Zajímavě se vyvíjí situace mezi Rickem a Jessií. Rick totiž Jessii na konci večírku 
+                    políbí a ji to evidentně potěšilo. Teď se Rick musí zbavit jejího manžela...
+        </p>
+ 
+        <div class="centered-title"><u><h2>Za hradbami</h2></u></div>
+        <video controls fastload muted loop>
+            <source src="https://online2.sktorrent.eu/media/videos//h264/6695_480p.mp4">
+        </video>
+        <p>Glenn, Tara, Noah, Aiden, Nicholas a Eugene vyrážejí na výpravu do skladu s elektronikou.
+             Aiden se od poslední výpravy uklidnil a dává na Glennovy rady. Vše jde dobře, skupina si
+              obhlédne sklad a zjistí, že předním východem ven nesmějí. Uvnitř pak hledanou součástku 
+              najdou rychle, ale pak Aiden střílí po mrtvákovi, který u sebe měl granát, a dojde k výbuchu.
+               Tara je vážně zraněná a Aiden vypadá mrtvý, pak se ale probere. Glenn, Noah a Nicholas k němu
+                běží a Eugene odnese Taru do auta jako skutečný hrdina. Aiden se těsně před smrtí přizná, že 
+                s Nicholasem můžou za smrt bývalých kolegů. Aiden je nakonec roztrhán mrtváky a trojice mužů
+                 uvízne v otáčivých dveřích. Nicholas se zachoval jako zbabělec, utekl, a Noah za to zaplatí
+                  svým životem. Glenn omráčí Nicholase ranou do hlavy a odveze všechny zpět. Tara je vážně
+                   zraněná a v kómatu...
+        </p>
+        
+        <div class="centered-title"><u><h2>Marná snaha</h2></u></div>
+        <video controls fastload muted loop>
+            <source src="https://online1.sktorrent.eu/media/videos//h264/6696_480p.mp4">
+        </video>
+        <p>Deanna vyšetřuje, co se stalo ve skladu s elektronikou, kde zemřel její syn. Nicholas
+             lže a tvrdí, že za všechno může Glenn. Ten řekne Rickovi pravdu... Carol kondoluje 
+             za všechny, ale Deanna její jídlo nechá přede dveřmi a kartičku s kondolencí spálí. 
+             To však není Rickova jediná starost. Carol mu řekne o týrání Jessie a Sama, které nabírá
+              na obrátkách, jak se jí Sam stále více svěřuje. Deanna o týrání ví a zatím to nechtěla 
+              řešit, protože Pete je jediný lékař. Rozzuřený Rick tvrdí, že Pete musí zemřít, jestli
+               od Jessie neodejde, ale Deanna jeho popravu odmítá. Deanna lidi vyhošťuje, nic jiného 
+               dělat nechce. Rick to však nechce nechat být a snaží se Jessii pomoct. Ta nejprve odmítá
+               . Rick se ale nenechá odbýt a nakonec se Jessie přizná, že by pomoc potřebovala. V tu chvíli
+                se objeví Pete a Jessie mu řekne, aby odešel od její rodiny. Pete se naštve a začne se s Rickem 
+                prát. Nikdo není schopný potyčku ukončit, rváči poslechnou až Deannu. Rick poté vytáhne 
+                zbraň, kterou má potají u sebe, a vyhrožuje všem kolem. Zdá se, že se pomátl...
+        </p>
+ 
+        <div class="centered-title"><u><h2>Ortel</h2></u></div>
+        <video controls fastload muted loop>
+            <source src="https://online4.sktorrent.eu/media/videos//h264/6698_480p.mp4">
+        </video>
+        <p>Rick se probral z bezvědomí a Michonne mu oznámila, že Deanna na večer svolala schůzku, kde se bude rozhodovat 
+            o jeho budoucnosti. Ostatní ze skupiny se Ricka ptají na zbraň, kterou měl u sebe, a Carol to zahrála tak, 
+            že nikdo netuší, že ona má další dvě zbraně. Maggie se snaží ujistit Deannu o Rickově dobré vůli, ale Deanna
+             je evidentně proti Rickovi, její manžel stojí při Rickovi. Maggie se rozhodla, že obejde co nejvíc lidí a vše
+              jim vysvětlí. S Glennem se mají sejít večer na schůzi. Glenn pak pronásleduje Nicholase do lesa, kde se ho 
+              Nicholas pokusí zabít. Jejich rvačka a honička trvá až do večera, Glenn má šanci Nicholase zabít, ale neudělá
+               to. Glenn pomáhá zraněnému Nicholasovi zpět do tábora. Ven si vyšel i Gabriel, který tam narazil na mrtváka.
+                Gabriel se venku zhroutil a něco se v něm zlomilo, když se pak vrátil do osady, tak mu bylo jedno, že nezavřel
+                 bránu. Gabriela ten večer vyhledala Sasha, která je na tom špatně. Gabriel nemůže zapomenout na masakr, 
+                 ke kterému došlo v jeho kostele, a proto tvrdí Sashe, že Bob a Tyreese zemřeli kvůli jejím hříchům. Sasha 
+                 a Gabriel se začnou prát, až vítězí Sasha a ta pak míří na Gabriela zbraní. Zbraň jí sebrala až Maggie, která 
+                 přišla do kostela ze schůzky. Gabriel se přiznal k tomu, že to kvůli němu všichni jeho věřící umřeli, Maggie 
+                 s ním souhlasí. Trojice se nakonec spolu pomodlí.
+        </p>
+       
+
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 ReficulLive. Všechna práva vyhrazena.</p>
+    </footer>
+</body>
+</html>
